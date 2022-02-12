@@ -10,7 +10,8 @@
 
 ## Description
 
-Project for learn authentication with nestJS. This project was setup with the oficial nestJS documentation. Link: https://docs.nestjs.com/security/authentication
+Project for learn authentication with nestJS. This project was setup with the oficial nestJS documentation\
+Link: https://docs.nestjs.com/security/authentication
 
 ## Installation
 
@@ -51,7 +52,7 @@ $ # result -> {"userId":1,"username":"john"}
 
 ## Prisma
 
-Link Nest Documentation: https://docs.nestjs.com/recipes/prisma
+Link Nest Documentation: https://docs.nestjs.com/recipes/prisma\
 Link Prisma Documentation: https://www.prisma.io/docs/concepts/components/prisma-cli/installation
 
 ```bash

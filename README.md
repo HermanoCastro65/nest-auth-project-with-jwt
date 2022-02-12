@@ -52,7 +52,7 @@ $ # result -> {"userId":1,"username":"john"}
 
 ## Prisma
 
-Link Nest Documentation: https://docs.nestjs.com/recipes/prisma\
+Link Nest Documentation: https://docs.nestjs.com/recipes/prisma \
 Link Prisma Documentation: https://www.prisma.io/docs/concepts/components/prisma-cli/installation
 
 ```bash

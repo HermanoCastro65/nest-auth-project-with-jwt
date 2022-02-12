@@ -48,3 +48,30 @@ $ # GET /profile using access_token returned from previous step as bearer code
 $ curl http://localhost:3000/profile -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2Vybm..."
 $ # result -> {"userId":1,"username":"john"}
 ```
+
+## Prisma
+
+Link Nest Documentation: https://docs.nestjs.com/recipes/prisma
+Link Prisma Documentation: https://www.prisma.io/docs/concepts/components/prisma-cli/installation
+
+```bash
+# install prisma and prisma client
+$ yarn add prisma --dev
+$ yarn add @prisma/client
+```
+
+Prisma commands with yarn
+
+```bash
+# Generate artifacts (e.g. Prisma Client)
+$ yarn prisma generate
+
+# Browse your data
+$ yarn prisma studio
+
+# Create migrations from your Prisma schema, apply them to the database, generate artifacts (e.g. Prisma Client)
+$ yarn prisma migrate dev
+
+# Pull the schema from an existing database, updating the Prisma schema
+$ yarn prisma db pull
+```
